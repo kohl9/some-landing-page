@@ -1,0 +1,193 @@
+body {
+    color: #ffffff;
+    font-family: Georgia;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url('/img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 844px;
+    padding-top: 60px;
+    margin-bottom: 89px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 250px;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.logo-title {
+    color: #f1cdb3;
+    letter-spacing: 1.13px;
+    font-size: 32px;
+    font-weight: 400;
+    display: block;
+}
+
+.logo-description {
+    font-family: "Arial MT";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 1.3px;
+}
+
+.navbar-item {
+    margin-left: 5rem;
+    color: #cdcdcd;
+    font-family: "Arial MT";
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.header-description {
+    max-width: 450px;
+}
+
+.header-description__head {
+    font-size: 44px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 57px;
+    text-align: right;
+    font-style: normal;
+    letter-spacing: 2.64px;
+    line-height: normal;
+    display: block;
+    text-align: left;
+    margin-bottom: 46px;
+}
+
+.header-description__desc {
+    font-family: "Arial MT";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: right;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    display: block;
+    text-align: left;
+    margin-bottom: 44px;
+}
+
+.header-description__button {
+    color: #292929;
+    font-family: Georgia;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 57px;
+    text-align: right;
+    font-style: normal;
+    letter-spacing: 1.02px;
+    line-height: normal;
+    border-radius: 26px;
+    background-color: #f1cdb3;
+    padding: 20px 44px;
+}
+
+.navbar-item_hidden {
+    display: none;
+    width: 30px;
+}
+
+.about-the-shelter__description {
+    margin-left: 3rem;
+}
+
+.about-the-shelter__description span:nth-child(1) {
+    color: #545454;
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 2.1px;
+    display: block;
+    margin-bottom: 37px;
+}
+
+.about-the-shelter__description span:nth-child(2) {
+    color: #4c4c4c;
+    font-family: "Arial MT";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.about-the-shelter {
+    display: flex;
+    justify-content: space-between;
+    max-width: 834px;
+    margin: 0 auto;
+}
+
+.about-the-shelter img {
+    flex-basis: 300px;
+    display: block;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1200px;
+        padding: 0 15px;
+    }
+
+    header {
+        background-size: auto 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-item {
+        display: none;
+    }
+
+    .navbar-item_hidden {
+        display: inline;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-the-shelter {
+        display: block;
+        text-align: center;
+        width: auto;
+    }
+
+    .about-the-shelter img {
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+    .about-the-shelter__description {
+        margin: 0;
+    }
+}
+
+@media (max-width: 321px) {
+    
+}
